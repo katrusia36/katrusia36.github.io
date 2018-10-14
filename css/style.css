@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding:0px;
+    
+    
+}
+header {
+    height:17vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0px;
+    padding:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    
+}
+
+header:nth-child(n+2) {
+    
+}
+
+
+.list {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    margin: 0px;
+    padding:0px;
+    justify-content: space-between;
+    margin-right: 0px;
+    width:80%;
+    color: #fff;
+    margin-top: 3%;
+}
+.logo {
+    text-align: center;
+    list-style:none;
+    margin-top:0px;
+}
+.top-wrapper {
+    background-image: url(../image1/header.jpg);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.name {
+    display: flex;
+    text-align: center;
+    
+}
+
+.image1{
+    width:14%;
+}
+
+.name {
+    margin-top:2%;
+    font-family: 'Montez', cursive;
+    color: white;
+    font-size: 300%;
+}
+
+.logotext {
+    margin-left: 40%;
+    font-size:50%;
+}
+
+.mainname{
+ font-size: 500%;
+ color: white;
+ margin-top:0px;
+ font-family: 'Montez', cursive;
+ font-weight: 300;
+ margin-bottom: 0px;
+}
+
+.maintext{
+    font-size: 150%; 
+    margin-top:0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.top-wrapper {
+    height: 450px;
+}
+
+.image2 {
+    width: 30vw;
+    height: auto;
+    margin-right: 0px;
+}
+
+.top-wrapper2 {
+    height:60vh;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.disc1 {
+    background-color: #e7e7cb;
+    height: 60%;
+    width:50vw;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top:10%;
+    margin: 1%;
+    font-size:100%;
+    
+    
+}
+
+.img2 {
+    width: 50vw;
+    height: 60vh;
+    float: right;
+    background-image: url('http://www.chocolatmilano.it/app/uploads/2015/03/chocolat_coppetta1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 1%;
+     
+}
+.top-wrapper3 {
+    height:60vh;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.disc2 {
+    background-color: #e7e7cb;
+    height: 60%;
+    width:50vw;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top:10%;
+    margin: 1%;
+    font-size:100%;    
+    
+}
+
+.img3 {
+    height:200%;
+    width:50vw;
+    float: left;
+    background-image: url("http://www.chocolatmilano.it/app/uploads/2015/03/chocolat_negozioboccaccio.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 1%;
+     
+}
+
+.a1 {
+    font-family: 'Montserrat',sans-serif;
+    color: #C9A958;
+    display: inline-block;
+    height: 4vh;
+	width:8vw;
+    border: 2px solid #C9A958;
+	text-decoration: none;
+}
+	
+.a2 {
+	font-family: 'Montserrat',sans-serif;
+    color: #C9A958;
+    display: inline-block;
+    height: 4vh;
+	width:16vw;
+    border: 2px solid #C9A958;
+	text-decoration: none;	
+	}
+.top-wrapper4 {
+    width: 100vw;
+    height: 80vh;
+}
+.img4 {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(http://www.chocolatmilano.it/app/uploads/2015/03/chocolat_sito_header.png);
+    background-size:100%;
+    background-repeat: no-repeat;  
+}
